@@ -44,7 +44,6 @@ class Boat extends React.Component {
   render() {
     return (
       <View>
-        <Text>GetABoat - For Sale</Text>
         <Text>{this.props.name}</Text>
         <Text>{this.props.description}</Text>
         <Image source={this.props.picture} />

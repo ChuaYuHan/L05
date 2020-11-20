@@ -7,7 +7,7 @@
  */
 
 import React from 'react';
-import {View, Text, ScrollView} from 'react-native';
+import {Text, ScrollView} from 'react-native';
 import {MovieList} from './Movies.js';
 import {BoatList} from './Boats';
 
@@ -16,6 +16,7 @@ const App: () => React$Node = () => {
     <ScrollView>
       <Text>Lesson 05 Exercises</Text>
       <MovieList />
+      <Text>GetABoat - For Sale</Text>
       <BoatList />
     </ScrollView>
   );
