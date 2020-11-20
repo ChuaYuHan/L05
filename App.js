@@ -7,7 +7,7 @@
  */
 
 import React from 'react';
-import {Text, ScrollView} from 'react-native';
+import {View, Text, ScrollView} from 'react-native';
 import {MovieList} from './Movies.js';
 import {BoatList} from './Boats';
 
